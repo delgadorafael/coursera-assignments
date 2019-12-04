@@ -1,0 +1,54 @@
+body{
+	font-size: 16px;
+	color: #ffffff;
+	background-color: #b4cde4;
+	font-family: 'Montserrat', 'Arial', sans-serif;
+}
+
+#header-nav{
+	background-color: #cccccc;
+	border-radius: 0;
+	border: 0;
+}
+
+.navbar-brand h1{
+	color: #ffffff;
+	font-size: 1.75em;
+	font-weight: bold;
+	text-shadow: 2px 2px 2px #595959;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: 0.9;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus{
+	text-decoration: none;
+}
+
+.navbar-header button.navbar-toggle{
+	background-color:#b4cde4;
+}
+
+.navbar-header .icon-bar{
+	border: 1px solid #ffffff;
+}
+
+/* lg devices */
+@media (min-width: 1200px){
+
+}
+
+/* md devices */
+@media (min-width: 992px) and (max-width: 1199px){
+
+}
+
+/* sm devices */
+@media (min-width: 768px) and (max-width: 991px){
+
+}
+
+/* xs devices */
+@media (max-width: 767px){
+
+}
