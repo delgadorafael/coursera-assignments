@@ -16,8 +16,8 @@
     <nav id="header-nav" class="navbar navbar-default">
       <div class="container">
         <div class="navbar-header">
-          <div class="navbar-brand">
-            <a href="index.html" class="pull-left">
+          <div class="navbar-brand pull-left">
+            <a href="index.html">
               <h1>Food, LLC</h1>
             </a>  
           </div>
@@ -30,26 +30,23 @@
           </button>
         </div>
 
-        <div id="collapsable-nav" class="collapse navbar-collapse">
-          <ul id="nav-list" clas="nav navbar-nav navbar-right">
+        <div id="collapsable-nav" class=" collapse navbar-collapse text-center" >
+          <ul id="nav-list" class="nav navbar-nav navbar-right visible-xs">
             <li>
-              <a href="menu-categories.html">
-                <span class="glyphicon glyphicon-cutlery"></span>
-                <br class="visible-xs">
+              <a href="#chicken">
+                <br>
                 Chicken
               </a>
             </li>
             <li>
-              <a href="#">
-                <span class="glyphicon glyphicon-info-sign"></span>
-                <br class="visible-xs">
+              <a href="#beef">
+                <br>
                 Beef
               </a>
             </li>
             <li>
-              <a href="#">
-                <span class="glyphicon glyphicon-certificate"></span>
-                <br class="visible-xs">
+              <a href="#sushi">
+                <br>
                 Sushi
               </a>
             </li>
@@ -60,12 +57,34 @@
     </nav>
   </header>
 
-  <div style="height: 1000px;">
-    
+  <div id="main-content" class="container">
+    <p class="text-center header">Our Menu</p>
+
+    <div class="row">
+      <div id="chicken" class="content col-xs-12">
+        <div class="title">Chicken</div>
+        <div class="info"></div>
+      </div>
+      <div id="beef" class="content col-xs-12">
+        <div class="title">Beef</div>
+        <div class="info"></div>
+      </div>
+      <div id="sushi" class="content col-xs-12">
+        <div class="title">Sushi</div>
+        <div class="info"></div>
+      </div>
+    </div>
   </div>
+
   <!-- jQuery (Bootstrap JS plugins depend on it) -->
   <script src="js/jquery-1.11.3.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/script.js"></script>
+  <script>
+
+    $(document).ready(function(){
+    $(".info").html("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim urna, tincidunt ac varius a, tincidunt id purus. Sed ut tellus ac ante volutpat faucibus. Cras dolor lectus, mattis eget scelerisque ullamcorper, suscipit ut erat. Nulla facilisi. Fusce vitae viverra ex. Donec a risus imperdiet lacus blandit gravida nec sit amet orci. Praesent mattis nisl eget tempor tristique. Suspendisse elit justo, dignissim vitae mauris ut, dictum finibus velit. Phasellus auctor tellus mi, eu feugiat nulla congue vel. Ut facilisis dictum euismod. Maecenas arcu purus, porttitor vel mollis at, tempor eu lorem. Nam non dignissim lectus. Praesent porttitor at metus nec dictum. Curabitur tellus turpis, mattis eu nisi et, venenatis tristique dolor. Fusce pretium purus nulla. Morbi massa neque, sollicitudin nec libero nec, porttitor venenatis mi. Suspendisse tempus accumsan dolor, et posuere diam. Duis accumsan eros sit amet sem consectetur, nec volutpat augue commodo. Praesent iaculis euismod turpis, eget sollicitudin sapien tincidunt in. Donec eget magna a ante facilisis finibus. Cras et rutrum magna. Quisque ut viverra urna, quis placerat tellus. Proin tempus placerat mauris. Fusce a lacus varius velit interdum vehicula sed sit amet mi. Nunc sapien nibh, auctor id suscipit ut, dictum a eros. Suspendisse ac metus efficitur, imperdiet mauris nec, pulvinar neque. In dapibus viverra enim. Quisque vulputate quam quis odio dapibus luctus. Aenean tortor nibh, dapibus at metus sit amet, auctor auctor ex. Nulla porttitor nisi lorem, vitae placerat enim tempus id. Sed fermentum, urna nec vestibulum commodo, lectus diam condimentum orci, ut egestas ligula orci in tortor. Integer consectetur rhoncus quam, ac aliquam diam faucibus at. Mauris hendrerit augue sed velit cursus rutrum eget vitae lorem. Morbi dignissim libero nec placerat aliquam. Etiam eu ante turpis. Mauris a maximus ipsum. Sed tincidunt lectus id metus volutpat faucibus. In hac habitasse platea dictumst. Mauris at dolor pretium, molestie orci et, mollis dolor. Pellentesque eleifend, lorem ac ultricies scelerisque, enim quam bibendum lectus, non pellentesque nisl purus eu sapien. Morbi condimentum maximus mi, ut suscipit dolor aliquam sit amet. Praesent sem urna, molestie nec pellentesque quis, ultrices ut ligula. In luctus ante quis dolor porta malesuada a laoreet justo. Fusce luctus finibus dignissim. In nisi ipsum, rhoncus et leo id, pellentesque hendrerit risus. Donec placerat convallis erat, sit amet fermentum lacus lacinia id. Aenean pellentesque ac lectus nec cursus. Ut varius dolor arcu, id volutpat massa tristique quis. Pellentesque aliquam purus quis accumsan lacinia.");
+  });
+  </script>
 </body>
 </html>

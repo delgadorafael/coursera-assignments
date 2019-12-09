@@ -18,7 +18,7 @@ body{
 	text-shadow: 2px 2px 2px #595959;
 	margin-top: 0;
 	margin-bottom: 0;
-	line-height: 0.9;
+	line-height: 0.6;
 }
 
 .navbar-brand a:hover, .navbar-brand a:focus{
@@ -33,19 +33,63 @@ body{
 	border: 1px solid #ffffff;
 }
 
+div#collapsable-nav{
+	background-color: #969696;
+	color: #ffffff;
+}
+
+#collapsable-nav a{
+	color: #ffffff;
+	vertical-align: text-top;
+}
+
+#main-content{
+	height: 1000px;
+	color: #000000;
+}
+
+#main-content .header{
+	font-weight: bold;
+	font-size: 1.6em;
+	color: #ffffff;
+	text-shadow: 2px 2px #000000;
+}
+
+.content{
+	background-color: #CCC8C7;
+	margin-bottom: 20px;
+}
+
+#main-content .title{
+	text-align: center;
+	font-weight: bold;
+	padding: 10px;
+	font-size: 1.2em;
+}
+
+.info{
+	text-align: justify;
+}
+
 /* lg devices */
 @media (min-width: 1200px){
-
+	div#collapsable-nav{
+	background-color: #cccccc;
+	}
 }
 
 /* md devices */
 @media (min-width: 992px) and (max-width: 1199px){
-
+	div#collapsable-nav{
+	background-color: #cccccc;
+	}
 }
 
 /* sm devices */
 @media (min-width: 768px) and (max-width: 991px){
-
+	div#collapsable-nav{
+	background-color: #cccccc;
+	}
 }
 
 /* xs devices */
